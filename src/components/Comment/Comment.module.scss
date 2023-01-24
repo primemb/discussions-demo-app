@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    span {
+      color: rgb(152, 152, 152);
+    }
+  }
+
+  .description {
+    margin-top: 0.4rem;
+    line-height: 1.6rem;
+    color: rgb(50, 50, 50);
+  }
+
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    .reply_btn {
+      background-color: transparent;
+      font-weight: 600;
+      font-size: 18px;
+      border: none;
+      color: #4577ea;
+      cursor: pointer;
+    }
+  }
+}
+.reply {
+  border: none;
+  padding-left: 4rem;
+}

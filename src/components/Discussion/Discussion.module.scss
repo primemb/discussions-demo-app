@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #cccc;
+  margin-bottom: 1rem;
+
+  .replies {
+    position: relative;
+    padding-left: 3rem;
+  }
+  .line {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    top: 0rem;
+    width: 2px;
+    background-color: #cccc;
+  }
+}
+
+.list_item {
+  list-style: none;
+}
