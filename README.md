@@ -1,5 +1,5 @@
 # discussions-demo-app
 
-# `npm run dev` to start
+### `npm run dev` to start
 
-# `npm run test` to run unit tests
+### `npm run test` to run unit tests
