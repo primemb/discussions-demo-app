@@ -4,7 +4,7 @@ import { useAppDispatch } from "../../store/hooks";
 
 import classes from "./LikeButton.module.scss";
 
-interface ILikeButtonProps {
+export interface ILikeButtonProps {
   likes: number;
   id: number;
   isLiked: boolean;

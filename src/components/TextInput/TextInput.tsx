@@ -1,6 +1,6 @@
 import classes from "./TextInput.module.scss";
 
-interface ITextInputProps {
+export interface ITextInputProps {
   value: string;
   type: "text" | "number" | "email";
   onChange: (value: string) => void;

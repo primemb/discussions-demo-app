@@ -12,13 +12,16 @@ interface IDiscussionProps {
 const Discussion = ({ comment, replies }: IDiscussionProps) => {
   const selectForReply = useAppSelector((state) => state.user.selectForReply);
   return (
-    <li className={`${classes.container} ${classes.list_item}`}>
+    <li
+      aria-label="comment"
+      className={`${classes.container} ${classes.list_item}`}
+    >
       <Comment comment={comment} />
       <div className={classes.replies}>
         <div className={classes.line}></div>
         <ul>
           {replies.map((reply) => (
-            <li className={classes.list_item} key={reply.id}>
+            <li aria-label="reply" className={classes.list_item} key={reply.id}>
               <Comment comment={reply} isReply />
             </li>
           ))}

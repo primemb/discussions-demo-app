@@ -6,7 +6,7 @@ import LikeButton from "../LikeButton/LikeButton";
 import { useAppDispatch } from "../../store/hooks";
 import { selectReply } from "../../store/userSlice";
 
-interface ICommentProps {
+export interface ICommentProps {
   comment: IComment;
   isReply?: boolean;
 }
